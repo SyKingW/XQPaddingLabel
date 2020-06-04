@@ -74,7 +74,6 @@ public class XQPaddingLabel: UIView {
         super.layoutSubviews()
         if self.rounded {
             self.layer.cornerRadius = self.bounds.height/2
-            self.layer.masksToBounds = true
         }
     }
     
